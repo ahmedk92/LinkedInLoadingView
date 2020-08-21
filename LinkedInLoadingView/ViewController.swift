@@ -9,12 +9,23 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        loadingView.show(in: view)
     }
-
-
+    
+    private lazy var loadingView: LILoadingView = {
+        let loadingView = LILoadingView(frame: .zero)
+        loadingView.addTarget(self, action: #selector(loadingViewTapped), for: .touchUpInside)
+        return loadingView
+    }()
+    
+    @objc private func loadingViewTapped() {
+        loadingView.hide()
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            self.loadingView.show(in: self.view)
+        }
+    }
 }
 

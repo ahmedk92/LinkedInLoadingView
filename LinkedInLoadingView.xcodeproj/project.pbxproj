@@ -14,6 +14,7 @@
 		2871413124EF72B00096387F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2871413024EF72B00096387F /* Assets.xcassets */; };
 		2871413424EF72B00096387F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2871413224EF72B00096387F /* LaunchScreen.storyboard */; };
 		2871413F24EF72B00096387F /* LinkedInLoadingViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2871413E24EF72B00096387F /* LinkedInLoadingViewTests.swift */; };
+		2871414A24EF72C40096387F /* LILoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2871414924EF72C40096387F /* LILoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		2871413A24EF72B00096387F /* LinkedInLoadingViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkedInLoadingViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2871413E24EF72B00096387F /* LinkedInLoadingViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedInLoadingViewTests.swift; sourceTree = "<group>"; };
 		2871414024EF72B00096387F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2871414924EF72C40096387F /* LILoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LILoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +81,14 @@
 		2871412624EF72AD0096387F /* LinkedInLoadingView */ = {
 			isa = PBXGroup;
 			children = (
+				2871413524EF72B00096387F /* Info.plist */,
 				2871412724EF72AD0096387F /* AppDelegate.swift */,
+				2871414924EF72C40096387F /* LILoadingView.swift */,
 				2871412924EF72AD0096387F /* SceneDelegate.swift */,
 				2871412B24EF72AD0096387F /* ViewController.swift */,
-				2871412D24EF72AD0096387F /* Main.storyboard */,
 				2871413024EF72B00096387F /* Assets.xcassets */,
 				2871413224EF72B00096387F /* LaunchScreen.storyboard */,
-				2871413524EF72B00096387F /* Info.plist */,
+				2871412D24EF72AD0096387F /* Main.storyboard */,
 			);
 			path = LinkedInLoadingView;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2871414A24EF72C40096387F /* LILoadingView.swift in Sources */,
 				2871412C24EF72AD0096387F /* ViewController.swift in Sources */,
 				2871412824EF72AD0096387F /* AppDelegate.swift in Sources */,
 				2871412A24EF72AD0096387F /* SceneDelegate.swift in Sources */,
