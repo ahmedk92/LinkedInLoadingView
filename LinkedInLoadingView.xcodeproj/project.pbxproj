@@ -40,6 +40,7 @@
 		2871413E24EF72B00096387F /* LinkedInLoadingViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedInLoadingViewTests.swift; sourceTree = "<group>"; };
 		2871414024EF72B00096387F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2871414924EF72C40096387F /* LILoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LILoadingView.swift; sourceTree = "<group>"; };
+		2871414B24EF81650096387F /* lilv.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = lilv.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 		2871412624EF72AD0096387F /* LinkedInLoadingView */ = {
 			isa = PBXGroup;
 			children = (
+				2871414B24EF81650096387F /* lilv.gif */,
 				2871413524EF72B00096387F /* Info.plist */,
 				2871412724EF72AD0096387F /* AppDelegate.swift */,
 				2871414924EF72C40096387F /* LILoadingView.swift */,
